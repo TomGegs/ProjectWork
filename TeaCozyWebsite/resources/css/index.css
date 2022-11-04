@@ -1,0 +1,217 @@
+/*  1. Site wide styles
+    2. Structure
+    3. Media elements
+    4.
+    5.
+      */
+
+/*1. Site wide styles */
+html, body {
+    margin: 0;
+    font-size: 22px;
+    padding: 0 2px;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+  }
+
+h1, 
+h2,
+h3,
+h4 {
+    text-align: center;
+
+}
+
+
+
+a:hover {
+    color: purple;
+    transition: .3s;
+}
+
+header{
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    z-index: 1;
+
+}
+
+/* navigation bar */
+.crumb {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.crumb li {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    display: inline-flex;
+    padding: 20px 10px;
+ 
+}
+
+.crumb a {
+    display: block;
+    text-decoration: underline;
+    color: seashell;
+}
+
+.crumb a:hover {
+    color: lightblue; 
+    
+}
+
+.crumb a:active {
+    color: purple;
+}
+
+
+footer {
+
+}
+
+/* Media elements */
+.logo {
+    height: 50px;
+    text-align: left;
+    margin: 10px 10px;
+}
+
+
+
+/* hero */
+.landing {
+    display: flex;
+    justify-content: center;
+
+}
+
+.herotext {
+    background-color: black;
+    justify-content: center;
+    width: 1200px;
+    margin: 25% auto;
+    z-index: 1;
+ 
+    
+}
+
+.splash {
+    display: block;
+
+    background-image: url(../images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+
+    
+
+}
+
+/* Tea tiles section frist row */
+.main {
+    margin-top: 80px;
+    width: 1000px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.main h2 {
+    justify-content: center;
+    text-align: center;
+}
+
+.tiles h4 {
+    margin-top: 10px;
+
+}
+
+.firstrow {
+    justify-content: center;
+    align-items: center;
+
+
+ }
+
+ .tiles {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;   
+}
+
+.tiles img{
+    width: 300px;
+    height: 200px;
+}
+
+/* Tea tiles section second row */
+
+.secondrow {
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* Locations Section */
+
+.locationBox {
+    background-image: url(../images/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+ 
+}
+
+
+.locationTitle {
+    text-align: center;
+    justify-content: center;
+    width: 1200px;
+    display: inline-block;
+}
+
+.locationItems {
+    display: flex;
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    justify-content: space-around;
+    margin-left: 40px;
+    text-align: center;
+    height: 300px;
+    margin: 8% auto;
+
+}
+
+.locationItems ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    margin: auto;
+    align-items: center;
+}
+
+
+.locationItems li{
+    line-height: 2em;
+
+
+
+}
